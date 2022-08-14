@@ -69,7 +69,7 @@ nodeGroups: # Refer: https://github.com/weaveworks/eksctl/blob/main/examples/05-
     labels: { role: workers }
     tags:
       k8s.io/cluster-autoscaler/enabled: "true" # tag is needed for cluster autoscaler. Refer: https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md#auto-discovery-setup
-      k8s.io/cluster-autoscaler/my-eks-201: "shared" # cluster name tag is optional in latest versions of EKS
+      k8s.io/cluster-autoscaler/Capstone-Cluster: "shared" # cluster name tag is optional in latest versions of EKS
     instancesDistribution:
       instanceTypes:
         - t2.medium
