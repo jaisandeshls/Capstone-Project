@@ -36,7 +36,7 @@ spec:
       # add tolerations to restrict running on selected nodes
       tolerations:
         - key: "app"
-          operator: "true"
+          value: "true"
           effect: "NoSchedule"
 
 ---
