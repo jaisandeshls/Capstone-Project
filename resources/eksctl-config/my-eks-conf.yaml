@@ -98,9 +98,9 @@ nodeGroups: # Refer: https://github.com/weaveworks/eksctl/blob/main/examples/05-
       k8s.io/cluster-autoscaler/enabled: "true"
       k8s.io/cluster-autoscaler/Capstone-Cluster: "shared"
     taints:
-      key: app
+      key: "app"
       value: "true"
-      effect: NoSchedule
+      effect: "NoSchedule"
     instancesDistribution:
       instanceTypes:
         - t2.medium
